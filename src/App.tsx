@@ -19,11 +19,7 @@ export default function App() {
       {/* Main content */}
       <div className="main-content">
         <h1>You're all set up</h1>
-        <p>
-          Start using agent chat to build your prototype.
-          <br />
-          Your live will update here.
-        </p>
+        <p>Start using agent chat to build your prototype.</p>
       </div>
     </div>
   )

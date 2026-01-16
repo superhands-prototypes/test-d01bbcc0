@@ -24,7 +24,14 @@ body {
   display: flex;
   gap: 12px;
   padding: 4px 16px;
-  justify-content: space-between;
+}
+
+.onboarding-callouts .callout-left {
+  margin-right: auto;
+}
+
+.onboarding-callouts .callout-right {
+  margin-left: auto;
 }
 
 .callout {
@@ -78,10 +85,8 @@ body {
 }
 
 .callout-center {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 44px;
+  position: relative;
+  margin: 0 auto;
 }
 
 .callout-arrow {

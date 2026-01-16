@@ -10,7 +10,7 @@ export default function App() {
 
         <div className="callout callout-center">
           <span className="callout-arrow callout-arrow-center"></span>
-          <span className="callout-text">Check at different device sizes</span>
+          <span className="callout-text">Switch between screen sizes</span>
         </div>
 
         <div className="callout callout-right">

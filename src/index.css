@@ -50,6 +50,33 @@ body {
   color: #333;
 }
 
+.callout-right {
+  position: relative;
+}
+
+.callout-arrow {
+  position: absolute;
+  top: -8px;
+  right: 20px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #e0e0e0;
+}
+
+.callout-arrow::after {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: -7px;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #f5f5f5;
+}
+
 .main-content {
   flex: 1;
   display: flex;

@@ -11,7 +11,8 @@ export default function App() {
           <span className="callout-text">Check at different device sizes</span>
         </div>
 
-        <div className="callout">
+        <div className="callout callout-right">
+          <span className="callout-arrow"></span>
           <span className="callout-text">When you're ready to share click here</span>
         </div>
       </div>

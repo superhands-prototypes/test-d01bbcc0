@@ -17,11 +17,15 @@ body {
 }
 
 .onboarding-callouts {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
-  flex-wrap: wrap;
   gap: 12px;
   padding: 16px;
   justify-content: space-between;
+  z-index: 100;
 }
 
 .callout {
@@ -85,6 +89,7 @@ body {
   justify-content: center;
   text-align: center;
   padding: 20px;
+  padding-top: 100px;
 }
 
 .main-content h1 {

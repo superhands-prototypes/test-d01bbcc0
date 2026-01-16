@@ -3,17 +3,17 @@ export default function App() {
     <div className="app">
       {/* Onboarding arrows */}
       <div className="onboarding-arrows">
-        <div className="arrow-container arrow-left">
+        <div className="arrow-container">
           <span className="arrow">↑</span>
           <span className="arrow-label">Go to your dashboard</span>
         </div>
 
-        <div className="arrow-container arrow-center">
+        <div className="arrow-container">
           <span className="arrow">↑</span>
           <span className="arrow-label">Check at different device sizes</span>
         </div>
 
-        <div className="arrow-container arrow-right">
+        <div className="arrow-container">
           <span className="arrow">↑</span>
           <span className="arrow-label">When you're ready to share click here</span>
         </div>

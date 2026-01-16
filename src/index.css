@@ -78,9 +78,10 @@ body {
 }
 
 .callout-center {
-  position: absolute;
+  position: fixed;
   left: 50%;
   transform: translateX(-50%);
+  top: 44px;
 }
 
 .callout-arrow {

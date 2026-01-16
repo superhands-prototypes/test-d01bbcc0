@@ -15,7 +15,7 @@ export default function App() {
 
         <div className="callout callout-right">
           <span className="callout-arrow callout-arrow-right"></span>
-          <span className="callout-text">When you're ready to share click here</span>
+          <span className="callout-text">Update and share your prototype</span>
         </div>
       </div>
 

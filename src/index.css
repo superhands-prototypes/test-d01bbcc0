@@ -7,3 +7,55 @@
 body {
   font-family: system-ui, -apple-system, sans-serif;
 }
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.onboarding-arrows {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+
+.arrow-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow-left {
+  align-items: flex-start;
+}
+
+.arrow-center {
+  align-items: center;
+}
+
+.arrow-right {
+  align-items: flex-end;
+}
+
+.arrow {
+  font-size: 1.5rem;
+}
+
+.arrow-label {
+  font-size: 0.875rem;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-content h1 {
+  margin-bottom: 16px;
+}

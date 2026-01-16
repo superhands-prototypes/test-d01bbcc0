@@ -3,19 +3,19 @@ export default function App() {
     <div className="app">
       {/* Onboarding arrows */}
       <div className="onboarding-arrows">
-        <div className="arrow-container">
+        <div className="arrow-container arrow-left">
+          <span className="arrow">↑</span>
           <span className="arrow-label">Go to your dashboard</span>
-          <span className="arrow">↑</span>
         </div>
 
-        <div className="arrow-container">
+        <div className="arrow-container arrow-center">
+          <span className="arrow">↑</span>
           <span className="arrow-label">Check at different device sizes</span>
-          <span className="arrow">↑</span>
         </div>
 
-        <div className="arrow-container">
-          <span className="arrow-label">When you're ready to share click here</span>
+        <div className="arrow-container arrow-right">
           <span className="arrow">↑</span>
+          <span className="arrow-label">When you're ready to share click here</span>
         </div>
       </div>
 

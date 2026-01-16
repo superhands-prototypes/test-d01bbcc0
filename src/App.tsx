@@ -4,17 +4,14 @@ export default function App() {
       {/* Onboarding callouts */}
       <div className="onboarding-callouts">
         <div className="callout">
-          <span className="callout-title">Superhands Logo</span>
           <span className="callout-text">Go to your dashboard</span>
         </div>
 
         <div className="callout">
-          <span className="callout-title">Device Dropdown</span>
           <span className="callout-text">Check at different device sizes</span>
         </div>
 
         <div className="callout">
-          <span className="callout-title">Publish Button</span>
           <span className="callout-text">When you're ready to share click here</span>
         </div>
       </div>

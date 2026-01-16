@@ -21,7 +21,7 @@ export default function App() {
 
       {/* Main content */}
       <div className="main-content">
-        <h1>You're ready to go</h1>
+        <h1>You're all set up</h1>
         <p>
           Start using agents in cursor to build your prototype.
           <br />

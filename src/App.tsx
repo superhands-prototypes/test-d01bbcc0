@@ -23,7 +23,7 @@ export default function App() {
       <div className="main-content">
         <h1>You're all set up</h1>
         <p>
-          Start using agents in cursor to build your prototype.
+          Start using agent chat to build your prototype.
           <br />
           Your live will update here.
         </p>

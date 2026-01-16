@@ -1,21 +1,21 @@
 export default function App() {
   return (
     <div className="app">
-      {/* Onboarding arrows */}
-      <div className="onboarding-arrows">
-        <div className="arrow-container">
-          <span className="arrow">↑</span>
-          <span className="arrow-label">Go to your dashboard</span>
+      {/* Onboarding callouts */}
+      <div className="onboarding-callouts">
+        <div className="callout">
+          <span className="callout-title">Superhands Logo</span>
+          <span className="callout-text">Go to your dashboard</span>
         </div>
 
-        <div className="arrow-container">
-          <span className="arrow">↑</span>
-          <span className="arrow-label">Check at different device sizes</span>
+        <div className="callout">
+          <span className="callout-title">Device Dropdown</span>
+          <span className="callout-text">Check at different device sizes</span>
         </div>
 
-        <div className="arrow-container">
-          <span className="arrow">↑</span>
-          <span className="arrow-label">When you're ready to share click here</span>
+        <div className="callout">
+          <span className="callout-title">Publish Button</span>
+          <span className="callout-text">When you're ready to share click here</span>
         </div>
       </div>
 

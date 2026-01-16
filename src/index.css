@@ -18,7 +18,7 @@ body {
 
 .onboarding-callouts {
   position: fixed;
-  top: 16px;
+  top: 40px;
   left: 0;
   right: 0;
   display: flex;
